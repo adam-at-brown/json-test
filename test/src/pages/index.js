@@ -8,13 +8,6 @@ import SEO from "../components/seo"
 const IndexPage = () => {
   const [ data, setDate ] = useState(null)
 
-  useEffect(() => {
-    fetch(`https://adam-at-brown.github.io/json-test/data.json`)
-      .then(x => console.log(x))
-      // .then(x => x.json())
-      // .then(x => setDate(x.results))
-  }, [])
-
   console.log(data)
 
   return (

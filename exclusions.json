@@ -1,11 +1,11 @@
 [
-  "wheat",
-  "gluten",
-  "milk",
-  "soy",
-  "fish",
-  "shellfish",
-  "egg",
-  "peanut",
-  "tree nut"
+  {"exclude": "wheat"},
+  {"exclude": "gluten"},
+  {"exclude": "milk"},
+  {"exclude": "soy"},
+  {"exclude": "fish"},
+  {"exclude": "shellfish"},
+  {"exclude": "egg"},
+  {"exclude": "peanut"},
+  {"exclude": "tree nut"}
 ]
