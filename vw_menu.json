@@ -1,7 +1,5 @@
-[
-  {
-    "main": [
-      {
+[{
+    "main": [{
         "name": "Grilled Chicken",
         "contains": []
       },
@@ -11,11 +9,11 @@
       },
       {
         "name": "Baked Fish, seasoned",
-        "contains": [ "fish" ]
+        "contains": ["fish"]
       },
       {
         "name": "Baked Fish, breaded in Gluten Free crumb",
-        "contains": [ "fish"]
+        "contains": ["fish"]
       },
       {
         "name": "Brown Rice Pasta w/ Marinara Sauce",
@@ -40,8 +38,7 @@
     ]
   },
   {
-    "vegtables": [
-      {
+    "vegtables": [{
         "name": "Steamed Carrots, plain",
         "contains": []
       },
@@ -64,8 +61,7 @@
     ]
   },
   {
-    "Starches": [
-      {
+    "Starches": [{
         "name": "Brown Rice, steamed",
         "contains": []
       },
@@ -84,18 +80,17 @@
       {
         "name": "None",
         "contains": []
-      },
+      }
     ]
   },
   {
-    "desserts": [
-      {
+    "desserts": [{
         "name": "David's Gluten Free Brownie",
-        "contains": [ "soy", "egg" ]
+        "contains": ["soy", "egg"]
       },
       {
         "name": "David's Gluten Free Cookie",
-        "contains": [ "soy", "egg" ]
+        "contains": ["soy", "egg"]
       },
       {
         "name": "None",
