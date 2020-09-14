@@ -27,6 +27,18 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-source-custom-api",
+      options: {
+          url: "https://adam-at-brown.github.io/json-test/data.json"
+      }
+    },
+    {
+      resolve: "gatsby-source-custom-api",
+      options: {
+          url: "https://adam-at-brown.github.io/json-test/exclusions.json"
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

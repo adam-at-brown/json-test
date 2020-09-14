@@ -9,10 +9,10 @@ const IndexPage = () => {
   const [ data, setDate ] = useState(null)
 
   useEffect(() => {
-    fetch(`https://raw.githubusercontent.com/adam-at-brown/json-test/master/index.json`)
+    fetch(`https://adam-at-brown.github.io/json-test/data.json`)
       .then(x => console.log(x))
       // .then(x => x.json())
-      .then(x => setDate(x.results))
+      // .then(x => setDate(x.results))
   }, [])
 
   console.log(data)
